@@ -8,14 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/app/intops/add.c" "CMakeFiles/arithmetic.dir/intops/add.c.o" "gcc" "CMakeFiles/arithmetic.dir/intops/add.c.o.d"
-  "/app/intops/divide.c" "CMakeFiles/arithmetic.dir/intops/divide.c.o" "gcc" "CMakeFiles/arithmetic.dir/intops/divide.c.o.d"
-  "/app/intops/multiply.c" "CMakeFiles/arithmetic.dir/intops/multiply.c.o" "gcc" "CMakeFiles/arithmetic.dir/intops/multiply.c.o.d"
-  "/app/intops/subtract.c" "CMakeFiles/arithmetic.dir/intops/subtract.c.o" "gcc" "CMakeFiles/arithmetic.dir/intops/subtract.c.o.d"
+  "/app/arithmetic.c" "CMakeFiles/Arithmetic.dir/arithmetic.c.o" "gcc" "CMakeFiles/Arithmetic.dir/arithmetic.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/app/build/CMakeFiles/arithmetic.dir/DependInfo.cmake"
+  "/app/build/CMakeFiles/cpparithmetic.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
