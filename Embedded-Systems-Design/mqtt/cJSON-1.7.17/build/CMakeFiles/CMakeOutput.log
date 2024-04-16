@@ -1,0 +1,568 @@
+The target system is: Linux -  - riscv
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: //duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/app/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a0ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a0ac.dir/build.make CMakeFiles/cmTC_7a0ac.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccouO71O.s
+GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include
+ //duo-sdk/rootfs/usr/include
+End of search list.
+GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o /tmp/ccouO71O.s
+GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+Linking C executable cmTC_7a0ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0ac.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -static -v -rdynamic CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -o cmTC_7a0ac 
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
+COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-static' '-v' '-rdynamic' '-o' 'cmTC_7a0ac' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMluXcU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lc --sysroot=//duo-sdk/rootfs -melf64lriscv -static -o cmTC_7a0ac //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lgcc_eh -lc --end-group /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o
+COLLECT_GCC_OPTIONS='-static' '-v' '-rdynamic' '-o' 'cmTC_7a0ac' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+    add: [//duo-sdk/rootfs/usr/include]
+  end of search list found
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  collapse include dir [//duo-sdk/rootfs/usr/include] ==> [//duo-sdk/rootfs/usr/include]
+  implicit include dirs: [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include;//duo-sdk/rootfs/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-linux-musl-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a0ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a0ac.dir/build.make CMakeFiles/cmTC_7a0ac.dir/build]
+  ignore line: [gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccouO71O.s]
+  ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  ignore line: [ //duo-sdk/rootfs/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o /tmp/ccouO71O.s]
+  ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [Linking C executable cmTC_7a0ac]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0ac.dir/link.txt --verbose=1]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -static -v -rdynamic CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o -o cmTC_7a0ac ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-static' '-v' '-rdynamic' '-o' 'cmTC_7a0ac' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  link line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMluXcU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lc --sysroot=//duo-sdk/rootfs -melf64lriscv -static -o cmTC_7a0ac //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lgcc_eh -lc --end-group /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMluXcU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [--sysroot=//duo-sdk/rootfs] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-static] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7a0ac] ==> ignore
+    arg [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o] ==> obj [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib]
+    arg [-L//duo-sdk/rootfs/lib64/lp64d] ==> dir [//duo-sdk/rootfs/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/usr/lib64/lp64d] ==> dir [//duo-sdk/rootfs/usr/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/lib] ==> dir [//duo-sdk/rootfs/lib]
+    arg [-L//duo-sdk/rootfs/usr/lib] ==> dir [//duo-sdk/rootfs/usr/lib]
+    arg [CMakeFiles/cmTC_7a0ac.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  remove lib [gcc_eh]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib]
+  collapse library dir [//duo-sdk/rootfs/lib64/lp64d] ==> [//duo-sdk/rootfs/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/usr/lib64/lp64d] ==> [//duo-sdk/rootfs/usr/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/lib] ==> [//duo-sdk/rootfs/lib]
+  collapse library dir [//duo-sdk/rootfs/usr/lib] ==> [//duo-sdk/rootfs/usr/lib]
+  implicit libs: [gcc;c]
+  implicit objs: [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbeginT.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  implicit dirs: [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib;//duo-sdk/rootfs/lib64/lp64d;//duo-sdk/rootfs/usr/lib64/lp64d;//duo-sdk/rootfs/lib;//duo-sdk/rootfs/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test FLAG_SUPPORTED_stdc89 succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68af1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68af1.dir/build.make CMakeFiles/cmTC_68af1.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68af1.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_stdc89  -std=c89 -o CMakeFiles/cmTC_68af1.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68af1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68af1.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -static  -rdynamic CMakeFiles/cmTC_68af1.dir/src.c.o -o cmTC_68af1 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_pedantic succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18fe1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18fe1.dir/build.make CMakeFiles/cmTC_18fe1.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18fe1.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -o CMakeFiles/cmTC_18fe1.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_18fe1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18fe1.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89  -static  -rdynamic CMakeFiles/cmTC_18fe1.dir/src.c.o -o cmTC_18fe1 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wall succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28a09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28a09.dir/build.make CMakeFiles/cmTC_28a09.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28a09.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -o CMakeFiles/cmTC_28a09.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28a09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a09.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic  -static  -rdynamic CMakeFiles/cmTC_28a09.dir/src.c.o -o cmTC_28a09 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wextra succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e132f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e132f.dir/build.make CMakeFiles/cmTC_e132f.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e132f.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -o CMakeFiles/cmTC_e132f.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e132f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e132f.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall  -static  -rdynamic CMakeFiles/cmTC_e132f.dir/src.c.o -o cmTC_e132f 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Werror succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f61ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f61ef.dir/build.make CMakeFiles/cmTC_f61ef.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f61ef.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -o CMakeFiles/cmTC_f61ef.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f61ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f61ef.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra  -static  -rdynamic CMakeFiles/cmTC_f61ef.dir/src.c.o -o cmTC_f61ef 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictprototypes succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a5e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a5e0.dir/build.make CMakeFiles/cmTC_3a5e0.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a5e0.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -o CMakeFiles/cmTC_3a5e0.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3a5e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a5e0.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror  -static  -rdynamic CMakeFiles/cmTC_3a5e0.dir/src.c.o -o cmTC_3a5e0 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wwritestrings succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3c0c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3c0c.dir/build.make CMakeFiles/cmTC_e3c0c.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3c0c.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -o CMakeFiles/cmTC_e3c0c.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3c0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c0c.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  -static  -rdynamic CMakeFiles/cmTC_e3c0c.dir/src.c.o -o cmTC_e3c0c 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wshadow succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b4fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b4fb.dir/build.make CMakeFiles/cmTC_4b4fb.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b4fb.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -o CMakeFiles/cmTC_4b4fb.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4b4fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4fb.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  -static  -rdynamic CMakeFiles/cmTC_4b4fb.dir/src.c.o -o cmTC_4b4fb 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Winitself succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_216a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_216a6.dir/build.make CMakeFiles/cmTC_216a6.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_216a6.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -o CMakeFiles/cmTC_216a6.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_216a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_216a6.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  -static  -rdynamic CMakeFiles/cmTC_216a6.dir/src.c.o -o cmTC_216a6 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastalign succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b95ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b95ad.dir/build.make CMakeFiles/cmTC_b95ad.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b95ad.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -o CMakeFiles/cmTC_b95ad.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b95ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b95ad.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  -static  -rdynamic CMakeFiles/cmTC_b95ad.dir/src.c.o -o cmTC_b95ad 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformat2 succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c259/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c259.dir/build.make CMakeFiles/cmTC_3c259.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c259.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -o CMakeFiles/cmTC_3c259.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3c259
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c259.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  -static  -rdynamic CMakeFiles/cmTC_3c259.dir/src.c.o -o cmTC_3c259 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingprototypes succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d9bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d9bc.dir/build.make CMakeFiles/cmTC_3d9bc.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d9bc.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -o CMakeFiles/cmTC_3d9bc.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d9bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d9bc.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  -static  -rdynamic CMakeFiles/cmTC_3d9bc.dir/src.c.o -o cmTC_3d9bc 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictoverflow2 succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c189/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c189.dir/build.make CMakeFiles/cmTC_9c189.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c189.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -o CMakeFiles/cmTC_9c189.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9c189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c189.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  -static  -rdynamic CMakeFiles/cmTC_9c189.dir/src.c.o -o cmTC_9c189 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastqual succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9976d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9976d.dir/build.make CMakeFiles/cmTC_9976d.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9976d.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -o CMakeFiles/cmTC_9976d.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9976d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9976d.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  -static  -rdynamic CMakeFiles/cmTC_9976d.dir/src.c.o -o cmTC_9976d 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wundef succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9352c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9352c.dir/build.make CMakeFiles/cmTC_9352c.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9352c.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -o CMakeFiles/cmTC_9352c.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9352c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9352c.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  -static  -rdynamic CMakeFiles/cmTC_9352c.dir/src.c.o -o cmTC_9352c 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchdefault succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d015a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d015a.dir/build.make CMakeFiles/cmTC_d015a.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d015a.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -o CMakeFiles/cmTC_d015a.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d015a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d015a.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  -static  -rdynamic CMakeFiles/cmTC_d015a.dir/src.c.o -o cmTC_d015a 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wconversion succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1386/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1386.dir/build.make CMakeFiles/cmTC_b1386.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1386.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -o CMakeFiles/cmTC_b1386.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1386
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1386.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  -static  -rdynamic CMakeFiles/cmTC_b1386.dir/src.c.o -o cmTC_b1386 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wccompat succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0db10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0db10.dir/build.make CMakeFiles/cmTC_0db10.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0db10.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -o CMakeFiles/cmTC_0db10.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0db10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0db10.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  -static  -rdynamic CMakeFiles/cmTC_0db10.dir/src.c.o -o cmTC_0db10 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fstackprotectorstrong succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8737/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8737.dir/build.make CMakeFiles/cmTC_a8737.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8737.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -o CMakeFiles/cmTC_a8737.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8737.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  -static  -rdynamic CMakeFiles/cmTC_a8737.dir/src.c.o -o cmTC_a8737 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wdoublepromotion succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd4a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd4a6.dir/build.make CMakeFiles/cmTC_bd4a6.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd4a6.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wdouble-promotion -o CMakeFiles/cmTC_bd4a6.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd4a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd4a6.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  -static  -rdynamic CMakeFiles/cmTC_bd4a6.dir/src.c.o -o cmTC_bd4a6 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wparentheses succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dce1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0dce1.dir/build.make CMakeFiles/cmTC_0dce1.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0dce1.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion    -Wparentheses -o CMakeFiles/cmTC_0dce1.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0dce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dce1.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion  -static  -rdynamic CMakeFiles/cmTC_0dce1.dir/src.c.o -o cmTC_0dce1 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformatoverflow succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5089/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5089.dir/build.make CMakeFiles/cmTC_c5089.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5089.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses    -Wformat-overflow -o CMakeFiles/cmTC_c5089.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c5089
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5089.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses  -static  -rdynamic CMakeFiles/cmTC_c5089.dir/src.c.o -o cmTC_c5089 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wunusedmacros succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d912c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d912c.dir/build.make CMakeFiles/cmTC_d912c.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d912c.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow    -Wunused-macros -o CMakeFiles/cmTC_d912c.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d912c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d912c.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow  -static  -rdynamic CMakeFiles/cmTC_d912c.dir/src.c.o -o cmTC_d912c 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchenum succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0c7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0c7b.dir/build.make CMakeFiles/cmTC_f0c7b.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0c7b.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wswitch-enum -o CMakeFiles/cmTC_f0c7b.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f0c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c7b.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros  -static  -rdynamic CMakeFiles/cmTC_f0c7b.dir/src.c.o -o cmTC_f0c7b 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fvisibilityhidden succeeded with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7dbce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dbce.dir/build.make CMakeFiles/cmTC_7dbce.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dbce.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum    -fvisibility=hidden -o CMakeFiles/cmTC_7dbce.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7dbce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dbce.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum  -static  -rdynamic CMakeFiles/cmTC_7dbce.dir/src.c.o -o cmTC_7dbce 
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

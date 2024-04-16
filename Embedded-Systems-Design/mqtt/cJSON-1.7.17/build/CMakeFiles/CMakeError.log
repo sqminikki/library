@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5d0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5d0d.dir/build.make CMakeFiles/cmTC_d5d0d.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5d0d.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -o CMakeFiles/cmTC_d5d0d.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+riscv64-unknown-linux-musl-gcc: error: unrecognized command-line option '-Wcomma'; did you mean '-Wcomment'?
+gmake[1]: *** [CMakeFiles/cmTC_d5d0d.dir/build.make:78: CMakeFiles/cmTC_d5d0d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5d0d/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations failed with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8f08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8f08.dir/build.make CMakeFiles/cmTC_b8f08.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8f08.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles/cmTC_b8f08.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+riscv64-unknown-linux-musl-gcc: error: unrecognized command-line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+gmake[1]: *** [CMakeFiles/cmTC_b8f08.dir/build.make:78: CMakeFiles/cmTC_b8f08.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b8f08/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused failed with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0faca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0faca.dir/build.make CMakeFiles/cmTC_0faca.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0faca.dir/src.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wused-but-marked-unused -o CMakeFiles/cmTC_0faca.dir/src.c.o -c /app/build/CMakeFiles/CMakeTmp/src.c
+riscv64-unknown-linux-musl-gcc: error: unrecognized command-line option '-Wused-but-marked-unused'
+gmake[1]: *** [CMakeFiles/cmTC_0faca.dir/build.make:78: CMakeFiles/cmTC_0faca.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0faca/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
