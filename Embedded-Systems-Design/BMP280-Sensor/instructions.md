@@ -1,3 +1,55 @@
+Librafy BMP280 example code
+
+This is the last required assignment! I'll have one more that's optional/extra credit.
+
+The BMP280 is a digital barometric pressure sensor produced by Bosch Sensortec. This sensor is designed for precision and flexibility, making it suitable for a wide range of applications, particularly mobile applications like weather forecasting, indoor navigation, fitness tracking, and home automation. Here are the key features of the BMP280. Notice it supports I2C and SPI interfaces. However we'll just use I2C.
+
+You can find the example code at:
+https://github.com/milkv-duo/duo-examples/tree/main/i2c/bmp280_i2c
+
+
+This assigment is similar to the SSD1306 assignment. The code is provided but it's in one file and not ideal to be used with other code in it's current format.
+
+You will have 3 files:
+main.c
+bmp280_i2c.c
+bmp280_i2c.h
+
+
+The sample code has a main function that does some intialization of the wiringX library. Essencitally up until the  `usleep(250000)` function call. Take `int fd_i2c;` and place it as a global variable (it's currently a local variable) and make it static. `static int fd_i2c;` Do the same with `struct bmp280_calib_param params;` Move it into global space and make it static `static struct bmp280_calib_param params;` The rest of the code can be a `wiringx_init` function (up until the usleep).
+
+The remaining code can be made into it's own function
+```c
+    int32_t raw_temperature;
+    int32_t raw_pressure;
+
+    while (1) {
+        bmp280_read_raw(fd_i2c, &raw_temperature, &raw_pressure);
+        int32_t temperature = bmp280_convert_temp(raw_temperature, &params);
+        int32_t pressure = bmp280_convert_pressure(raw_pressure, raw_temperature, &params);
+        printf("Temp. = %.2f C\n", temperature / 100.f);
+        printf("Pressure = %.3f kPa\n", pressure / 1000.f);
+        // poll every 1s
+        sleep(1);
+    }
+```
+Remove the while loop and sleep and save the results to a struct that is returned
+
+```c
+struct bmp280_i2c
+{
+    double temperature;
+    double pressure;
+};
+```
+
+Your function prototype is:
+```c
+struct bmp280_i2c read_temp_pressure();
+```
+
+Here is the header `bmp280_i2c.h`
+```c
 #include <stdint.h>
 #include <unistd.h>
 
@@ -88,3 +140,4 @@ struct bmp280_i2c
 
 void wiringx_init();
 struct bmp280_i2c read_temp_pressure();
+```

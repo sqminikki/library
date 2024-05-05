@@ -1,0 +1,420 @@
+The target system is: Linux -  - riscv
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: //duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/app/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: //duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/app/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33514/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33514.dir/build.make CMakeFiles/cmTC_33514.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccqEt1PJ.s
+GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include
+ //duo-sdk/rootfs/usr/include
+End of search list.
+GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o /tmp/ccqEt1PJ.s
+GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+Linking C executable cmTC_33514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33514.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -lwiringx -lwiringx -v CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -o cmTC_33514 
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
+COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33514' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqHHeCP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=//duo-sdk/rootfs --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-musl-riscv64xthead.so.1 -o cmTC_33514 //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib -lwiringx -lwiringx CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33514' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+    add: [//duo-sdk/rootfs/usr/include]
+  end of search list found
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  collapse include dir [//duo-sdk/rootfs/usr/include] ==> [//duo-sdk/rootfs/usr/include]
+  implicit include dirs: [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include;//duo-sdk/rootfs/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-linux-musl-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33514/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33514.dir/build.make CMakeFiles/cmTC_33514.dir/build]
+  ignore line: [gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccqEt1PJ.s]
+  ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  ignore line: [ //duo-sdk/rootfs/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o /tmp/ccqEt1PJ.s]
+  ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [Linking C executable cmTC_33514]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33514.dir/link.txt --verbose=1]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=//duo-sdk/rootfs  -lwiringx -lwiringx -v CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -o cmTC_33514 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33514' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  link line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqHHeCP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=//duo-sdk/rootfs --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-musl-riscv64xthead.so.1 -o cmTC_33514 //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib -lwiringx -lwiringx CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqHHeCP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=//duo-sdk/rootfs] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-riscv64xthead.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_33514] ==> ignore
+    arg [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o] ==> obj [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib]
+    arg [-L//duo-sdk/rootfs/lib64/lp64d] ==> dir [//duo-sdk/rootfs/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/usr/lib64/lp64d] ==> dir [//duo-sdk/rootfs/usr/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/lib] ==> dir [//duo-sdk/rootfs/lib]
+    arg [-L//duo-sdk/rootfs/usr/lib] ==> dir [//duo-sdk/rootfs/usr/lib]
+    arg [-lwiringx] ==> lib [wiringx]
+    arg [-lwiringx] ==> lib [wiringx]
+    arg [CMakeFiles/cmTC_33514.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib]
+  collapse library dir [//duo-sdk/rootfs/lib64/lp64d] ==> [//duo-sdk/rootfs/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/usr/lib64/lp64d] ==> [//duo-sdk/rootfs/usr/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/lib] ==> [//duo-sdk/rootfs/lib]
+  collapse library dir [//duo-sdk/rootfs/usr/lib] ==> [//duo-sdk/rootfs/usr/lib]
+  implicit libs: [wiringx;wiringx;gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  implicit dirs: [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib;//duo-sdk/rootfs/lib64/lp64d;//duo-sdk/rootfs/usr/lib64/lp64d;//duo-sdk/rootfs/lib;//duo-sdk/rootfs/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84ddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84ddf.dir/build.make CMakeFiles/cmTC_84ddf.dir/build
+gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccxgcBIU.s
+GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"
+ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
+ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include
+ //duo-sdk/rootfs/usr/include
+End of search list.
+GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
+	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c78667711b16100ed13280635b840c3a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxgcBIU.s
+GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+Linking CXX executable cmTC_84ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84ddf.dir/link.txt --verbose=1
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=//duo-sdk/rootfs  -lwiringx -lwiringx -v CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84ddf 
+Using built-in specs.
+COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++
+COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper
+Target: riscv64-unknown-linux-musl
+Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
+COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
+LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84ddf' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdFcVpW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=//duo-sdk/rootfs --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-musl-riscv64xthead.so.1 -o cmTC_84ddf //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib -lwiringx -lwiringx CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84ddf' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+gmake[1]: Leaving directory '/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+    add: [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+    add: [//duo-sdk/rootfs/usr/include]
+  end of search list found
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include]
+  collapse include dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  collapse include dir [//duo-sdk/rootfs/usr/include] ==> [//duo-sdk/rootfs/usr/include]
+  implicit include dirs: [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/backward;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include;//duo-sdk/rootfs/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-linux-musl-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84ddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84ddf.dir/build.make CMakeFiles/cmTC_84ddf.dir/build]
+  ignore line: [gmake[1]: Entering directory '/app/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=//duo-sdk/rootfs   -v -o CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot //duo-sdk/rootfs -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccxgcBIU.s]
+  ignore line: [GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"]
+  ignore line: [ignoring nonexistent directory "//duo-sdk/rootfs/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
+  ignore line: [ignoring duplicate directory "/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
+  ignore line: [ //duo-sdk/rootfs/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
+  ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c78667711b16100ed13280635b840c3a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxgcBIU.s]
+  ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  ignore line: [Linking CXX executable cmTC_84ddf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84ddf.dir/link.txt --verbose=1]
+  ignore line: [//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=//duo-sdk/rootfs  -lwiringx -lwiringx -v CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84ddf ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-linux-musl]
+  ignore line: [Configured with: /mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc/configure --target=riscv64-unknown-linux-musl --with-gmp=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpfr=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-mpc=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libexpat-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-libmpfr-prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/build-Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/lib-for-gcc-x86_64-linux --with-pkgversion='Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906' CXXFLAGS='-g -O2 -DTHEAD_VERSION_NUMBER=2.6.1 ' --prefix=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1 --with-sysroot=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/build-gcc-riscv64-unknown-linux-musl/Xuantie-900-gcc-linux-5.10.4-musl64-x86_64-V2.6.1/sysroot --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=/mnt/ssd/jenkins_iotsw/slave/workspace/Toolchain/build-gnu-riscv_4/./source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-O2   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-O2   -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
+  ignore line: [COMPILER_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
+  ignore line: [LIBRARY_PATH=/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/://duo-sdk/rootfs/lib64/lp64d/://duo-sdk/rootfs/usr/lib64/lp64d/://duo-sdk/rootfs/lib/://duo-sdk/rootfs/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84ddf' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+  link line: [ /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2 -plugin /duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so -plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdFcVpW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=//duo-sdk/rootfs --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-musl-riscv64xthead.so.1 -o cmTC_84ddf //duo-sdk/rootfs/usr/lib64/lp64d/crt1.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0 -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc -L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib -L//duo-sdk/rootfs/lib64/lp64d -L//duo-sdk/rootfs/usr/lib64/lp64d -L//duo-sdk/rootfs/lib -L//duo-sdk/rootfs/usr/lib -lwiringx -lwiringx CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o /duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/duo-sdk/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdFcVpW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=//duo-sdk/rootfs] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-riscv64xthead.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_84ddf] ==> ignore
+    arg [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o] ==> obj [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc]
+    arg [-L/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib]
+    arg [-L//duo-sdk/rootfs/lib64/lp64d] ==> dir [//duo-sdk/rootfs/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/usr/lib64/lp64d] ==> dir [//duo-sdk/rootfs/usr/lib64/lp64d]
+    arg [-L//duo-sdk/rootfs/lib] ==> dir [//duo-sdk/rootfs/lib]
+    arg [-L//duo-sdk/rootfs/usr/lib] ==> dir [//duo-sdk/rootfs/usr/lib]
+    arg [-lwiringx] ==> lib [wiringx]
+    arg [-lwiringx] ==> lib [wiringx]
+    arg [CMakeFiles/cmTC_84ddf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+    arg [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o]
+  collapse obj [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc] ==> [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc]
+  collapse library dir [/duo-sdk/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib] ==> [/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib]
+  collapse library dir [//duo-sdk/rootfs/lib64/lp64d] ==> [//duo-sdk/rootfs/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/usr/lib64/lp64d] ==> [//duo-sdk/rootfs/usr/lib64/lp64d]
+  collapse library dir [//duo-sdk/rootfs/lib] ==> [//duo-sdk/rootfs/lib]
+  collapse library dir [//duo-sdk/rootfs/usr/lib] ==> [//duo-sdk/rootfs/usr/lib]
+  implicit libs: [wiringx;wiringx;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [//duo-sdk/rootfs/usr/lib64/lp64d/crt1.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crti.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtbegin.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtend.o;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/crtn.o]
+  implicit dirs: [/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib64xthead/lp64d;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0;/duo-sdk/riscv64-linux-musl-x86_64/lib/gcc;/duo-sdk/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/lib;//duo-sdk/rootfs/lib64/lp64d;//duo-sdk/rootfs/usr/lib64/lp64d;//duo-sdk/rootfs/lib;//duo-sdk/rootfs/usr/lib]
+  implicit fwks: []
+
+

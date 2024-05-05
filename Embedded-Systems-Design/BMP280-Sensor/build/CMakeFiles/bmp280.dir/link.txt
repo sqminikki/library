@@ -1,0 +1,2 @@
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libbmp280.a CMakeFiles/bmp280.dir/bmp280_i2c.c.o
+//duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libbmp280.a

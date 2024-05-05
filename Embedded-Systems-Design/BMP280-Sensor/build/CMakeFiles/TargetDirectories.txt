@@ -1,0 +1,4 @@
+/app/build/CMakeFiles/bmp280.dir
+/app/build/CMakeFiles/bmp280_bin.dir
+/app/build/CMakeFiles/edit_cache.dir
+/app/build/CMakeFiles/rebuild_cache.dir
